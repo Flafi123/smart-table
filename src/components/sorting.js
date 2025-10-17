@@ -15,7 +15,7 @@ export function initSorting(columns) {
                 if (column.dataset.field !== action.dataset.field) {    // Если это не та кнопка, что нажал пользователь
                     column.dataset.value = 'none';                        // тогда сбрасываем её в начальное состояние
                 }
-            }); 
+            });  
         } else {
             // @todo: #3.3 — получить выбранный режим сортировки
             columns.forEach(column => {                        // Перебираем все наши кнопки сортировки
