@@ -34,7 +34,7 @@ export function initTable(settings, onAction) {
 
     // Обработчик для событий reset - используем setTimeout с обратными кавычками
     root.container.addEventListener('reset', () => {
-        setTimeout``(onAction);
+        setTimeout(onAction, 0);
     });
 
     // Обработчик для событий submit
